@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green: #064e3bd9;
+  --color-brand-green-deep: #043f31e6;
+  --color-brand-orange: #ea580c;
+  --color-brand-orange-hover: #c2410c;
+  --color-brand-cream: #fff7ed;
+  --color-background: #fafaf9;
+  --color-foreground: #1c1917;
+
+  --animate-pulse-cta: pulse-cta 2s ease-in-out infinite;
+
+  @keyframes pulse-cta {
+    0%, 100% {
+      transform: scale(1);
+      box-shadow: 0 10px 25px -5px rgba(22, 163, 74, 0.4);
+    }
+    50% {
+      transform: scale(1.03);
+      box-shadow: 0 15px 35px -5px rgba(22, 163, 74, 0.6);
+    }
+  }
+}
+
+:root {
+  --brand-green: #064e3bd9;
+  --brand-green-deep: #043f31e6;
+  --brand-orange: #ea580c;
+  --brand-orange-hover: #c2410c;
+  --brand-cream: #fff7ed;
+  --background: #fafaf9;
+  --foreground: #1c1917;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}

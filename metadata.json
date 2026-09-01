@@ -1,0 +1,6 @@
+{
+  "name": "365 Receitas Zero",
+  "description": "365 receitas sem açúcar, sem glúten e sem lactose",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
