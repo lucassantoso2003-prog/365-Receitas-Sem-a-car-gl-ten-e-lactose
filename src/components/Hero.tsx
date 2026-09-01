@@ -8,7 +8,7 @@ export function Hero() {
           </span>
         </h1>
         <p className="text-[17.6px] md:text-[19.8px] font-semibold text-foreground/70 mb-2 max-w-2xl mx-auto">
-          Sem açúcar, glúten ou lactose. Mais sabor e praticidade todos os dias.
+          Sem açúcar, glúten e lactose. Mais sabor e praticidade todos os dias.
         </p>
         <div className="flex justify-center mb-2 sm:overflow-visible overflow-hidden">
           <img
